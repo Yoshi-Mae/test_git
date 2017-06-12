@@ -43,6 +43,7 @@ union semun{
 
 int int_count = 0;
 
+int TEST_count;
 
 /*= 関数プロトタイプ宣言 =*/
 void MySemop( int p_semid, int SemOp, int i, int pid );
