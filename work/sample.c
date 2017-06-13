@@ -26,6 +26,7 @@
 #define PIPE_WRITE      1
 
 #define SIGNAL          666
+#define TEST_NUM        1000
 
 /* 定数 */
 const char *OP_RW = "w+";                //新規読み書き
