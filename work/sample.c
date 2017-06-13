@@ -14,7 +14,7 @@
 #include <string.h>
 #include <malloc.h>
 
-#define MAX_CHILD_NUM   6
+#define MAX_CHILD_NUM   10
 
 #define LOCK            -1
 #define UNLOCK          1
@@ -344,6 +344,7 @@ int main()
 
     gettimeofday(&time2, NULL);
     printf("passed time: %ld\n", time2.tv_sec - start_time.tv_sec);
+    printf("debug\n");
     printf("exec4 END!!!!\n");
 
     return 0;
